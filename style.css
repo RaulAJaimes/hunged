@@ -1,0 +1,19 @@
+#hunged{
+    width: 319px;
+    height:337px;
+    background-image: url('./imgs/ahorcado.png');
+}
+
+#ganador{
+    display: none;
+    height: 100%;
+    width: 100%;
+    align-items: center;
+    font-size: 5rem;
+    position: fixed;
+    justify-content: center;
+    flex-direction: column;
+    top: 0;
+    left: 0;
+    background-color: aliceblue;
+}

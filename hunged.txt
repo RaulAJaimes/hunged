@@ -1,0 +1,17 @@
+readme
+https://github.com/RaulAJaimes/hunged.git
+juego funcionando , falta acondicionar requisitos
+
+cree un nuevo repositorio en la línea de comandos
+
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/RaulAJaimes/hunged.git
+git push -u origin main
+
+insertar un repositorio existente desde la línea de comandos:
+git remote add origin https://github.com/RaulAJaimes/hunged.git
+git branch -M main
+git push -u origin main
