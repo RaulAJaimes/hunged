@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>hunged</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <link rel="stylesheet" href="./style.css">
+    
+</head>
+<body class="container-sm">
+    <header id="tit_header">            
+        <img id="logoAlura" class="col-sm-3" src="imgs/alura.png"/>
+        <h1 id="Header" class="alert alert-primary text-center container-sm">
+            Hunged!
+        </h1>            
+    </header> 
+    <section>
+
+        <article id="rugles"> 
+
+            <div class="container-sm reglas text-center">                
+                <p>                    
+                    <strong>1.</strong>No tildes, ni caracteres especiales; No numeros.                     
+                </p>  
+            </div>   
+
+        </article> 
+
+        <article id="usadas" class="container-sm">
+          <strong>Letra fallada=</strong>
+          <input id="palabra_Usada" type="text" maxlength="20" disabled/>
+        </article> 
+
+    </section>
+
+    <section id="cuerpoJuego" class="container-sm">
+
+        <section class="juego container-sm">  
+            <div id="ProbarLetra">
+                <input type="text" maxlength="1" id="letra" onkeyup="mayus(this);" pattern="[A-Za-z]"/>
+                <button class="btn btn-success" id="calcularLetra">
+                    Probar
+                </button>
+            </div>  
+            <section id="sectionHunged"> 
+                <div id="hunged"></div>
+                <div class="text-center" id="#palabrAdivinar">
+                    <p id="output"></p>
+                </div> 
+            </section> 
+
+            <div id="bnReiniciarRendr">
+                <div>
+                    <a href="hunged.html">
+                        <input type="submit" class="btn btn-primary" id="" value="Reiniciar"/>
+                    </a>
+                </div>
+                <div>
+                    <a href="index.html">
+                        <button class="btn btn-secondary">Rendirse</button>
+                    </a>                    
+                </div>              
+            </div>
+        </section>  
+
+    </section>
+  <footer id="footer" class="container-sm">
+    <a id="linkedin" class="container-sm-4" href="https://linkedin.com/in/rauljaimes826" target="_blank">
+            <img src="imgs/linkedin.png" width="20px" height="30px"/>                 
+            <input class="btn btn-info" type="submit" value="@RaulJaimes826"/>            
+    </a>  
+    <a id="git" class="container-sm-4" href="https://github.com/RaulAJaimes" target="_blank">
+            <img src="imgs/git.png" width="20px" height="30px">                
+            <input  class="btn btn-dark" type="submit" value="@RaulAJaimes"/>
+    </a>
+    <a id="face" class="container-sm-4" href="https://www.facebook.com/raul.jaimes" target="_blank">
+            <img src="imgs/facebook.png" width="20px" height="30px"/>                
+            <input class="btn btn-primary" type="submit" value="@Raul.Jaimes" disabled/>
+    </a>  
+</footer>             
+    <script src="ahorcado.js"></script>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+</body>
+</html>

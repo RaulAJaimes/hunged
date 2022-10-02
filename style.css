@@ -1,19 +1,161 @@
+body
+{
+    width: 840px;
+    height: 480px;       
+    justify-content: center; 
+    align-items: center;   
+    margin-left: 10%;  
+}
+#body
+{
+    width: 840px;
+    height: 480px; 
+    justify-content: center; 
+    align-items: center;   
+    background: #C9F8F5; 
+}
+.header{
+    display: flex;
+    width: 100%;
+    height: 10%;
+    margin: auto;
+}
+#logoAlura
+{    
+    width: auto;
+    height: 100%;    
+}
+#tituloHunged
+{
+    background: #C9F8F5;
+    justify-content: center;
+    align-items: center;
+    display: flex; 
+    margin-top: 2%;
+    height:100%;
+}
+#tit_header
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1%;
+    padding: 3rm;
+}
 #hunged{
     width: 319px;
     height:337px;
     background-image: url('./imgs/ahorcado.png');
+    justify-content: center;
+    margin:auto;
+}
+#palabra_Usada,#input_mostrarPalabra
+{
+    border: none;
+    outline: none;
 }
 
-#ganador{
+#ganador,#modal-ganador
+{
     display: none;
-    height: 100%;
-    width: 100%;
+    height: 60%;
+    width: 50%;
     align-items: center;
     font-size: 5rem;
     position: fixed;
     justify-content: center;
     flex-direction: column;
-    top: 0;
-    left: 0;
-    background-color: aliceblue;
+    top: 20%;
+    left:20%;
+    background: aliceblue;
+    margin: auto;
+}
+.juego{
+    background: hsl(288, 56%, 98%);    
+}
+#facebook
+{
+    justify-content: center;
+    align-items: center;   
+}
+#inicio
+{
+    justify-content: center; 
+    align-items: flex-end;
+    height: 90%;   
+}
+#bnmodal_agregarPalabra
+{
+    font-size: 26px;
+    margin-top: 0%;
+}
+#bnjugar
+{
+    font-size: 26px; 
+    justify-content: center;   
+}
+#footer
+{
+    justify-content: center; 
+    align-items: center;
+    height: 14%;
+    margin-top: 0%;
+    background: #cadefa;
+    margin-left: 0%;
+    display: flex;
+    border-radius: 10px;
+}
+#linkedin,#git,#face
+{
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+}
+#usadas
+{
+    background: #d2eaef;
+    border-radius: 14px;
+}
+#output,#palabrAdivinar
+{
+    justify-content: center; 
+    align-items: center; 
+    font-size: 26px;    
+}
+#cuerpoJuego,#explicandoJuego,#rugles,#btn,#modal_agregastePalabra
+{
+    display: flex;
+}
+#bnReiniciarRendr
+{
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+}
+#explicandoJuego
+{
+    display: flex;
+    margin-left: 4%;
+    border-radius: 18px;
+    width: 97%;  
+}
+#desafio
+{    
+    margin-left: 3%;
+    width: 100%;  
+    border-radius: 14px;    
+}
+
+#goku,#btnjugarAgregar
+{   
+   margin-top: 2%;   
+}
+#ProbarLetra
+{
+    display: flex;
+    justify-content: center; 
+}
+#sectionHunged
+{
+    justify-content: center;
 }
